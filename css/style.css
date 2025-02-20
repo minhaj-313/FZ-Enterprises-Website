@@ -47,6 +47,26 @@ h6,
     text-align: center;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FF9F29;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1A4D2E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1A4D2E;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
